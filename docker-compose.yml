@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jupyter:
+    build:
+      context: ./jupyter
+    volumes:
+      - ./ipynb/:/home/jovyan/work
+      - ./data/:/home/jovyan/work/data
+    ports:
+      - 8888:8888
