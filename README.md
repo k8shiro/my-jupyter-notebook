@@ -1,7 +1,7 @@
-# 自分用jupyter-notebook環境立ち上げセット
+# jupyter-notebook環境立ち上げセット
 
 - port: 8888
-- 初期パスワード：ACS8@DiB34F
+- 初期パスワード：password
 
 
 # 使い方
