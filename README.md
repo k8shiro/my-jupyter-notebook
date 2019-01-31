@@ -19,6 +19,7 @@ docker-compose up -d
 
 hostからコンテナに渡したいデータがある場合は./dataに格納。  
 host側の`./ipynb/`は`/home/jovyan/work`にマウントされている。
+`./data`と`./ipynb`は適切にpermissionをつけてください。
 
 
 **`./data`と`./ipynb`は`gitignore`に含まれているので注意**
