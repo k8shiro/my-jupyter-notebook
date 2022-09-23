@@ -6,7 +6,9 @@ services:
     volumes:
       - ./ipynb/:/home/jovyan/work
       - ./data/:/home/jovyan/work/data
+      - ./notebook:/home/jovyan/work/notebook
     ports:
       - 8888:8888
     environment:
       - JUPYTER_PASS=password
+    restart: always
